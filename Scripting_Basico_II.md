@@ -87,15 +87,15 @@ Con el fin de comprobar que almacén esta activado habrá que usar un enlace sim
 ```bash
 #!/bin/bash
 
-mkdir -p $HOME/Providence/Hangares/Rus
-mkdir -p $HOME/Providence/Hangares/Netro
-mkdir -p $HOME/Providence/Hangares/Cronte
+mkdir -p $HOME/Providence/Almacenes/Rus
+mkdir -p $HOME/Providence/Almacenes/Netro
+mkdir -p $HOME/Providence/Almacenes/Cronte
 
 #### 
 ## FRAGMENTOS PERDIDOS
 ###
 
-ls -l $HOME/Providence/Hangares/Habilitado
+ls -l $HOME/Providence/Almacenes/Habilitado
 
 exit 0
 ```

@@ -29,7 +29,7 @@ El inspector Lagresse te pide que arregles el script para que cumpla con la func
 `/smr/som/scripts/dia2/mision1.sh`
 
 ```bash
-!/bin/bash
+#!/bin/bash
 
 SEMAFORO_1="AMBAR"
 SEMAFORO_5="AMBAR"

@@ -163,6 +163,20 @@ Si ninguna condición se cumple nunca se realizarán las instrucciones dentro de
 
 Acabas de ser contratado como detective privado en Rhode Island para investigar la muerte del conocido profesor George Gammel Angel de la Universidad de Brown. Aunque los testigos afirman que fue asaltado cerca del puerto, su nieto sospecha que pudo haber algo más.
 
+# Warnings
+
++ Soy consciente de la dificultad de esta práctica, pero es importante que la intentéis terminar por vuestro propio pie, de esta forma sabré establecer la dificultad del examen correctamente
+
++ Supongo que sabéis leer y prestar atención durante la lectura de oraciones larga. Intentad comprender el enunciado y realizar los ejercicios.
+
++ Soy conocedor de cualquier tipo de ayuda externa o *mythos* que podáis usar. No os arriesguéis.
+
++ Cualquier uso indebido de este ejercicio supondrá un 0 en la práctica.
+
++ Estos ejercicios son muy parecidos a los realizados previamente, y muy similares a los que realizareis en el examen. 
+
++ Las rutas son muy importantes, no seguirlas supondrá un 0 en la práctica.
+
 ## Misión I
 
 Crea un script `MisiónI.sh` en el directorio `~/smr/som/scripts/dia1`. Este script deberá comprobar si existen los siguientes ficheros:

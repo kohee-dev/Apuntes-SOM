@@ -49,7 +49,7 @@ Este bucle hará lo mismo que el anterior.
 Otra cosa a tener en cuenta es que esta última forma nos permite hacer bucles mucho más útiles puesto que también podemos, por ejemplo, recorrer todos los archivos y directorios de un directorio especifico.
 
 ```bash
-for i in /var/smr/*
+for i in $(ls /var/smr/*)
 do
     echo $i 
 done

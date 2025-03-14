@@ -19,7 +19,7 @@ $ ./Ejercicios1.sh
 ````
 
 ## Ejercicio 2
-Crea un script que reciba un numero `N`por argumento e imprima los N primeros números
+Crea un script que reciba un numero `N`por argumento e imprima la suma de los N primeros números
 
 **Ejemplo**
 ````sh

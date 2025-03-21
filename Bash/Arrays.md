@@ -297,7 +297,9 @@ unset lista_compra
 
 ¿Y la carne picada?¿La esta ignorando? Si
 
-Es posible definir una clave que contenga un espacio, pero al ejecutar el `unset` dará un error
+Es posible definir una clave que contenga un espacio, pero al ejecutar el `unset` dará un error.
+
+Esta es la forma de solucionarlo.
 
 ```bash
 clave='Carne Picada'

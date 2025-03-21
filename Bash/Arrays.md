@@ -99,7 +99,7 @@ Si quisiese acceder a todos los elementos que tengo guardados en una lista tendr
 ```bash
 for i in "${lista_compra[@]}"
 do
-    print $i
+    echo $i
 done
 ```
 

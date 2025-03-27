@@ -4,7 +4,7 @@ subtitulo: "Unidad 4: Administración de Sistemas"
 autor: Alejandro Bartolomé
 header-includes: |
 lang: es-ES
-keywords: [SMR, SOR]
+keywords: [SMR, SOM]
 titlepage: true,
 ---
 

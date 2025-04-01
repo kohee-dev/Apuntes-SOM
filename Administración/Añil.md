@@ -170,13 +170,13 @@ Seguiremos esta estructura. Si no aparece la pareja en la tabla supondremos que 
 
 También generaremos un número aleatorio antes de cada ataque para comprobar si es crítico o no.
 
-$ CritRate = 0.05\% $
+$CritRate = 0.05\%$
 
-$ CritBonus = \times 2$
+$CritBonus = \times 2$
 
 Con todo esto nos quedaría la siguiente fórmula:
 
-$ Daño = ((( \$ random \times Ataque \times Bonus) RoundedDown)\times CritBonus) - Defensa $
+$Daño = ((( \$ random \times Ataque \times Bonus) RoundedDown)\times CritBonus) - Defensa$
 
 ## Simulador 1.2
 

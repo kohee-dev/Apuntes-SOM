@@ -131,7 +131,7 @@ Mientras ambos Pokemon continúen con vida se irán turnando los ataques.
 
 Para atacar usaremos la siguiente fórmula.
 
-$ Daño = (( \$ random \times Ataque)RoundedDown) - Defensa $
+$Daño = ((\$random \times Ataque)RoundedDown) - Defensa$
 
 Aquí tendremos que generar un número aleatorio entre 0.75 y 1.25 para establecer la efectividad del ataque y luego lo multiplicaremos por el ataque y por último se lo reduciremos a la defensa.
 
@@ -176,7 +176,7 @@ $CritBonus = \times 2$
 
 Con todo esto nos quedaría la siguiente fórmula:
 
-$Daño = ((( \$ random \times Ataque \times Bonus) RoundedDown)\times CritBonus) - Defensa$
+$Daño = (((\$random \times Ataque \times Bonus) RoundedDown)\times CritBonus) - Defensa$
 
 ## Simulador 1.2
 

@@ -33,7 +33,23 @@ Cada usuarios tiene un directorio HOME y tienen privilegios completos sobre ese 
 
 Por seguridad se recomienda trabajar con este tipo de usuarios y cuando se necesiten realizar operaciones con root acceder mediante el comando `su`
 
-Actualmente se les asigna una UID superior a 500 aunque en Ubuntu se les asigna a partir de 1000
+Actualmente se les asigna una UID superior a 500 aunque en Ubuntu se les asigna a partir de 1000.
+
+
+### Como trabajar con usuarios
+
+Hay una seríe de comandos de gran utilidad a la hora de trabajar con usuarios.
+
+|Comando|Función|Descripción|
+|:-:|:-|:-|
+|who|Muestra quién está conectado|Muestra información acerca de los usuarios que están actualmente conectados, con sesión abierta, en el sistema.|
+|whoami|Muestra que usuario estás usando|Muestra el nombre de usuario asociado con el identificador de usuario efectivo que se está usando.|
+|su|Convertirse en otro usuario|Permite ejecutar comandos con un usuario y grupo sustituto. Es decir, permite actual en el sistema como otro usuario.|
+|id|Muestra información de un usuario|Muestra el usuario real y efectivo así como identificación de grupos a los que pertenece dicho usuario.|
+|sudo|Ejecutar un comando como root|Permite ejecutar comandos como superusuario (root) o como otro usuario, siempre que el usuario esté permitido.|
+|groups|Muestra grupos de un usuario|Muestra los grupos a los que pertenece el usuario.|
+|passwd|Cambia la contraseña|Permite cambiar la contraseña de las cuentas de usuario|
+
 
 ---
 Para trabajar con usuarios tenemos que tener en cuenta 3 ficheros.
@@ -120,6 +136,10 @@ Por supuesto tenemos varias opciones:
 ```bash
 useradd -d /usr/alex -s /bin/bash -u 1200 -c "Alejandro Bartolomé Fernández" alex
 ```
+
+### Diferencias entre `Useradd` y `Adduser`
+
+El comando useradd nos permite crear cuentas del sistema a bajo nivel. Adduser es mucho más intuitivo pero es recomendable conocer ambos. 
 
 ## Como modificar un usuario
 

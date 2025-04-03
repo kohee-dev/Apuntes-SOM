@@ -1,6 +1,6 @@
 *Warning*
 
-Este documento es teoría, estudiado bien :wink:
+Este documento es teoría, estudiadlo bien :wink:
 
 # Usuarios
 

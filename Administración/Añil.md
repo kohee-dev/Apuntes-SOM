@@ -168,7 +168,7 @@ Seguiremos esta estructura. Si no aparece la pareja en la tabla supondremos que 
 |Agua|Fuego|x2|
 |Agua|Planta|x0.5|
 
-También generaremos un número aleatorio antes de cada ataque para comprobar si es crítico o no.
+También generaremos un número aleatorio antes de cada ataque para comprobar si es crítico o no, y utilizando el valor de *CritRate* modificaremos el valor de *CritBonus*.
 
 $CritRate = 0.05\%$
 
@@ -177,6 +177,8 @@ $CritBonus = \times 2$
 Con todo esto nos quedaría la siguiente fórmula:
 
 $Daño = (((\$random \times Ataque \times Bonus) RoundedDown)\times CritBonus) - Defensa$
+
+Cabe destacar que *CritBonus* será 1 si el ataque no es crítico y 2 si el ataque es crítico.
 
 ## Simulador 1.2
 
